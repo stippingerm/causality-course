@@ -1,93 +1,98 @@
-# Causality course
+# Causal Analysis (Kauzalitásvizsgálat)
 
+## Contents
+1. Introduction
+  * Definition of causality in philosophy
+  * Foundations of statistics
+  * Causality deduced from the examination of function form
+2. Examination of samples, events
+  * Randomized experiment
+  * Concept of confounder
+  * Bayesian inference
+  * Chapter from the book Causal Inference: What If?
+3. Graphical models
+  * Confounder, collider
+  * D-separation
+  * Judea Pearl's definition
+4. Inference of causal graphs
+  * Directed acyclic graphs
+  * PC algorithm and its extensions
+  * Equivalence classes of causal graphs, undecidable cases
+5. Causality on stochastic time series
+  * Vector autoregressive processes
+  * Granger causality
+  * Transfer entropy
+6. Causality on stochastic time series II.
+  * Conditional Granger causality
+  * Spectral Granger causality
+7. Causality on stochastic time series III.
+  * Application of the Markov property
+  * Significance and surrogate generation
+8. Causality in dynamical systems
+  * Chaos and ergodicity definitions
+  * Takens' embedding theorem
+  * Causal discovery
+  * Convergent cross-mapping
+9. Causality in dynamical systems II.
+  * Recurrence maps
+  * Convergent cross-sorting
+10. Causality in dynamical systems III.
+  * Dimensional causality
+  * Artificial neural network methods
+11. Anomaly detection [slides](http://cneuro.rmki.kfki.hu/wp-content/uploads/2024/12/Neurinfo-Anomaly-detection-SM.pdf) [notebook](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/Anomaly_detection.ipynb)
+  * Concept of anomaly in statistics and time series
+  * Classical machine learning methods (one-class SVM, isolation forest, local spread factor, temporal spread factor)
+  * Deep neural network methods (autoencoder, BiGAN, LSTM)
+12. Presentation of independently processed articles and applications
+  * Student evaluation
 
+### Contents (Hungarian)
+1. Bevezetés
+  * okság definíciója a filozófiában
+  * statisztika alapozás
+  * függvény forma vizsgálatából levezethető okság
+2. Minták, események vizsgálata
+  * randomizált kísérlet
+  * confounder fogalma
+  * Bayes-i inferencia
+  * fejezet a Causal Inference: What If? könyvből
+3. Grafikus modellek
+  * confounder, collider
+  * d-szeparáció
+  * Judea Pearl féle definíció
+4. Kauzális gráfok inferenciája
+  * irányított aciklikus gráfok
+  * PC-algoritmus és kiterjesztései
+  * kauzális gráfok ekvivalenciaosztályai, eldönthetetlen esetek
+5. Kauzalitás sztochasztikus idősorokon
+  * vektor autoregresszív folyamatok
+  * Granger-féle kauzalitás
+  * transzfer entrópia
+6. Kauzalitás sztochasztikus idősorokon II.
+  * feltételes Granger-féle kauzalitás
+  * spektrális Granger-féle kauzalitás
+7. Kauzalitás sztochasztikus idősorokon III.
+  * a Markov-tulajdonság alkalmazása
+  * Szignifikancia és surrogate készítés
+8. Kauzalitás dinamikai rendszerekben
+  * káosz és ergodicitás definíciók
+  * Takens beágyazási tétele
+  * kauzális felfedezés (causal discovery)
+  * konvergens keresztleképezés
+9. Kauzalitás dinamikai rendszerekben II.
+  * rekurrencia térképek
+  * konvergens keresztrendezés
+10. Kauzalitás dinamikai rendszerekben III.
+  * dimenziós kauzalitás
+  * mesterséges neurális háló módszerek
+11. Anomáliadetekció [slides](http://cneuro.rmki.kfki.hu/wp-content/uploads/2024/12/Neurinfo-Anomaly-detection-SM.pdf) [notebook](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/Anomaly_detection.ipynb)
+  * anomália fogalma statisztikában és idősorokon
+  * klasszikus gépi tanulási módszerek (egyosztályos SVM, izolációs erdő, helyi kiszóró faktor, időbeli kiszóró faktor)
+  * mély neurális hálós módszerek (autoenkóder, BiGAN, LSTM)
+12. Önállóan feldolgozott cikkek és alkalmazások ismertetése
+  * hallgatók értékelése
 
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.wigner.hu/stippinger.marcell/causality-course.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.wigner.hu/stippinger.marcell/causality-course/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+## References (Ajánlott irodalom)
+* Hernan, Miguel A, and James M Robins. „Causal Inference: What If” (2020), Boca Raton: Chapman & Hall/CRC.
+* Assaad, Charles K., Emilie Devijver, and Eric Gaussier. „Survey and Evaluation of Causal Discovery Methods for Time Series”. Journal of Artificial Intelligence Research 73 (2022. február 28.): 767–819. https://doi.org/10.1613/jair.1.13428.
+* Glymour, Clark, Kun Zhang, and Peter Spirtes. „Review of Causal Discovery Methods Based on Graphical Models”. Frontiers in Genetics 10 (2019. június 4.): 524. https://doi.org/10.3389/fgene.2019.00524.
