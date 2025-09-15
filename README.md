@@ -5,7 +5,7 @@
 * BME: BMETEEFMsFBIOV-00
 
 ## Contents
-1. Introduction
+1. Introduction [slides](https://wigner.hu/~stippinger/courses/causality-2025/01_Cause_and_Probability.pdf) [notebook](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Structure_based_methods/01_probability_statistics_structure.ipynb)
   * Definition of causality in philosophy
   * Foundations of statistics
   * Causality deduced from the examination of function form
