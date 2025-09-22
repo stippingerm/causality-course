@@ -9,11 +9,11 @@
   * Definition of causality in philosophy
   * Foundations of statistics
   * Causality deduced from the examination of function form
-2. Examination of samples, events
+2. Examination of samples, events [slides](https://wigner.hu/~stippinger/courses/causality-2025/02_Samples_and_Experiments.pdf)
+  * Chapters from the book Causal Inference: What If?
   * Randomized experiment
   * Concept of confounder
   * Bayesian inference
-  * Chapter from the book Causal Inference: What If?
 3. Graphical models
   * Confounder, collider
   * D-separation
@@ -56,10 +56,10 @@
   * statisztika alapozás
   * függvény forma vizsgálatából levezethető okság
 2. Minták, események vizsgálata
+  * fejezetek a Causal Inference: What If? könyvből
   * randomizált kísérlet
   * confounder fogalma
   * Bayes-i inferencia
-  * fejezet a Causal Inference: What If? könyvből
 3. Grafikus modellek
   * confounder, collider
   * d-szeparáció
