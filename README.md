@@ -2,7 +2,7 @@
 
 ## Course codes
 
-* BME: BMETEEFMsFBIOV-00
+* BME: BMETEEFMsFBIOV-00 (Bevezetés az idősoros okságvizsgálatba / Introduction to causal analysis of time series)
 
 ## Contents
 1. Introduction [slides](https://wigner.hu/~stippinger/courses/causality-2025/01_Cause_and_Probability.pdf) [notebook](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Structure_based_methods/01_probability_statistics_structure.ipynb)
@@ -97,6 +97,6 @@
   * hallgatók értékelése
 
 ## References (Ajánlott irodalom)
-* Hernan, Miguel A, and James M Robins. „Causal Inference: What If” (2020), Boca Raton: Chapman & Hall/CRC.
-* Assaad, Charles K., Emilie Devijver, and Eric Gaussier. „Survey and Evaluation of Causal Discovery Methods for Time Series”. Journal of Artificial Intelligence Research 73 (2022. február 28.): 767–819. https://doi.org/10.1613/jair.1.13428.
-* Glymour, Clark, Kun Zhang, and Peter Spirtes. „Review of Causal Discovery Methods Based on Graphical Models”. Frontiers in Genetics 10 (2019. június 4.): 524. https://doi.org/10.3389/fgene.2019.00524.
+* Hernan, Miguel A, and James M Robins. „Causal Inference: What If” (2020), Boca Raton: Chapman & Hall/CRC. [Online version](https://miguelhernan.org/whatifbook).
+* Assaad, Charles K., Emilie Devijver, and Eric Gaussier. „Survey and Evaluation of Causal Discovery Methods for Time Series”. Journal of Artificial Intelligence Research 73 (2022. február 28.): 767–819. [doi: 10.1613/jair.1.13428](https://doi.org/10.1613/jair.1.13428).
+* Glymour, Clark, Kun Zhang, and Peter Spirtes. „Review of Causal Discovery Methods Based on Graphical Models”. Frontiers in Genetics 10 (2019. június 4.): 524. [doi: 10.3389/fgene.2019.00524](https://doi.org/10.3389/fgene.2019.00524).
