@@ -14,7 +14,7 @@
   * Randomized experiment
   * Concept of confounder
   * Bayesian inference
-3. Graphical models
+3. Graphical models [slides](https://wigner.hu/~stippinger/courses/causality-2025/03_Graphical_models.pdf)
   * Confounder, collider
   * D-separation
   * Judea Pearl's definition
