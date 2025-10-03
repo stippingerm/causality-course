@@ -18,7 +18,7 @@
   * Confounder, collider
   * D-separation
   * Judea Pearl's definition
-4. Inference of causal graphs
+4. Inference of causal graphs [slides](https://wigner.hu/~stippinger/courses/causality-2025/04_Inference_of_Causal_Graphs.pdf) [notebook](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Structure_based_methods/04_inference_causal_graphs.ipynb)
   * Directed acyclic graphs
   * PC algorithm and its extensions
   * Equivalence classes of causal graphs, undecidable cases
