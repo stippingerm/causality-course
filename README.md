@@ -22,7 +22,7 @@
   * Directed acyclic graphs
   * PC algorithm and its extensions
   * Equivalence classes of causal graphs, undecidable cases
-5. Causality on stochastic time series
+5. Causality on stochastic time series [slides](https://wigner.hu/~stippinger/courses/causality-2025/05_Granger_causality.pdf) [notebook](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/05_granger_causality.ipynb)
   * Vector autoregressive processes
   * Granger causality
   * Transfer entropy
