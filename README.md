@@ -5,28 +5,28 @@
 * BME: BMETEEFMsFBIOV-00 (Bevezetés az idősoros okságvizsgálatba / Introduction to causal analysis of time series)
 
 ## Contents
-1. Introduction [slides](https://wigner.hu/~stippinger/courses/causality-2025/01_Cause_and_Probability.pdf) [notebook](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Structure_based_methods/01_probability_statistics_structure.ipynb)
+1. Introduction [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/01_Cause_and_Probability.pdf) [notebook 📓](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Structure_based_methods/01_probability_statistics_structure.ipynb)
   * Definition of causality in philosophy
   * Foundations of statistics
   * Causality deduced from the examination of function form
-2. Examination of samples, events [slides](https://wigner.hu/~stippinger/courses/causality-2025/02_Samples_and_Experiments.pdf)
+2. Examination of samples, events [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/02_Samples_and_Experiments.pdf)
   * Chapters from the book Causal Inference: What If?
   * Randomized experiment
   * Concept of confounder
   * Bayesian inference
-3. Graphical models [slides](https://wigner.hu/~stippinger/courses/causality-2025/03_Graphical_models.pdf)
+3. Graphical models [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/03_Graphical_models.pdf)
   * Confounder, collider
   * D-separation
   * Judea Pearl's definition
-4. Inference of causal graphs [slides](https://wigner.hu/~stippinger/courses/causality-2025/04_Inference_of_Causal_Graphs.pdf) [notebook](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Structure_based_methods/04_inference_causal_graphs.ipynb)
+4. Inference of causal graphs [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/04_Inference_of_Causal_Graphs.pdf) [notebook 📓](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Structure_based_methods/04_inference_causal_graphs.ipynb)
   * Directed acyclic graphs
   * PC algorithm and its extensions
   * Equivalence classes of causal graphs, undecidable cases
-5. Causality on stochastic time series [slides](https://wigner.hu/~stippinger/courses/causality-2025/05_Granger_causality.pdf) [notebook](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/05_granger_causality.ipynb)
+5. Causality on stochastic time series [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/05_Granger_causality.pdf) [notebook 📓](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/05_granger_causality.ipynb)
   * Vector autoregressive processes
   * Granger causality
   * Transfer entropy
-6. Causality on stochastic time series II.
+6. Causality on stochastic time series II. [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/05_Granger_causality.pdf)
   * Conditional Granger causality
   * Spectral Granger causality
 7. Causality on stochastic time series III.
@@ -43,7 +43,7 @@
 10. Causality in dynamical systems III.
   * Dimensional causality
   * Artificial neural network methods
-11. Anomaly detection [slides](http://cneuro.rmki.kfki.hu/wp-content/uploads/2024/12/Neurinfo-Anomaly-detection-SM.pdf) [notebook](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/Anomaly_detection.ipynb)
+11. Anomaly detection [slides 📚](http://cneuro.rmki.kfki.hu/wp-content/uploads/2024/12/Neurinfo-Anomaly-detection-SM.pdf) [notebook 📓](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/Anomaly_detection.ipynb)
   * Concept of anomaly in statistics and time series
   * Classical machine learning methods (one-class SVM, isolation forest, local spread factor, temporal spread factor)
   * Deep neural network methods (autoencoder, BiGAN, LSTM)
@@ -89,7 +89,7 @@
 10. Kauzalitás dinamikai rendszerekben III.
   * dimenziós kauzalitás
   * mesterséges neurális háló módszerek
-11. Anomáliadetekció [slides](http://cneuro.rmki.kfki.hu/wp-content/uploads/2024/12/Neurinfo-Anomaly-detection-SM.pdf) [notebook](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/Anomaly_detection.ipynb)
+11. Anomáliadetekció [slides 📚](http://cneuro.rmki.kfki.hu/wp-content/uploads/2024/12/Neurinfo-Anomaly-detection-SM.pdf) [notebook 📓](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/Anomaly_detection.ipynb)
   * anomália fogalma statisztikában és idősorokon
   * klasszikus gépi tanulási módszerek (egyosztályos SVM, izolációs erdő, helyi kiszóró faktor, időbeli kiszóró faktor)
   * mély neurális hálós módszerek (autoenkóder, BiGAN, LSTM)
