@@ -26,7 +26,7 @@
   * Vector autoregressive processes
   * Granger causality
   * Transfer entropy
-6. Causality on stochastic time series II. [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/05_Granger_causality.pdf)
+6. Causality on stochastic time series II. [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/06_Granger_variants.pdf)
   * Conditional Granger causality
   * Spectral Granger causality
 7. Causality on stochastic time series III.
