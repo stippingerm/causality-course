@@ -29,7 +29,7 @@
 6. Causality on stochastic time series II. [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/06_Granger_variants.pdf)
   * Conditional Granger causality
   * Spectral Granger causality
-7. Causality on stochastic time series III.
+7. Causality on stochastic time series III. [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/07_Surrogates_and_Markovness.pdf) [notebook 📓](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/07_datasets.ipynb)
   * Application of the Markov property
   * Significance and surrogate generation
 8. Causality in dynamical systems
