@@ -32,7 +32,7 @@
 7. Causality on stochastic time series III. [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/07_Surrogates_and_Markovness.pdf) [notebook 📓](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/07_datasets.ipynb)
   * Application of the Markov property
   * Significance and surrogate generation
-8. Causality in dynamical systems [slides 📚](08_Takens_and_Cross-mapping) [notebook 📓](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/08_crossmapping.ipynb)
+8. Causality in dynamical systems [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/08_Takens_and_Cross-mapping.pdf) [notebook 📓](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/08_crossmapping.ipynb)
   * Chaos and ergodicity definitions
   * Takens' embedding theorem
   * Causal discovery
