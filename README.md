@@ -37,7 +37,7 @@
   * Takens' embedding theorem
   * Causal discovery
   * Convergent cross-mapping
-9. Causality in dynamical systems II.
+9. Causality in dynamical systems II. [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/09_Cross-mapping_variants.pdf) [notebook 📓 soon...]
   * Recurrence maps
   * Convergent cross-sorting
 10. Causality in dynamical systems III.
