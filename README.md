@@ -40,7 +40,7 @@
 9. Causality in dynamical systems II. [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/09_Cross-mapping_variants.pdf) [notebook 📓](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/09_crossvariants.ipynb)
   * Recurrence maps
   * Convergent cross-sorting
-10. Causality in dynamical systems III. [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/10_Deep_Embedding_and_Dimensional_Causality)
+10. Causality in dynamical systems III. [slides 📚](https://wigner.hu/~stippinger/courses/causality-2025/10_Deep_Embedding_and_Dimensional_Causality.pdf)
   * Dimensional causality
   * Artificial neural network methods
 11. Anomaly detection [slides 📚](http://cneuro.rmki.kfki.hu/wp-content/uploads/2024/12/Neurinfo-Anomaly-detection-SM.pdf) [notebook 📓](http://colab.research.google.com/github/stippingerm/causality-course/blob/main/Time_series_methods/Anomaly_detection.ipynb)
